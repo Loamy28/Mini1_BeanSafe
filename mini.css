@@ -1,0 +1,11 @@
+.navbar-brand{
+    color: white;
+}
+
+/* coffee Main Banner background  */
+.background {
+    height:100vh;
+    background-color: #7F5A3B;
+    background-size:cover;
+    position:relative;
+}
