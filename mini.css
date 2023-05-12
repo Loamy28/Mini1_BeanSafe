@@ -9,3 +9,30 @@
     background-size:cover;
     position:relative;
 }
+
+.coffee_title {
+    font-size: 4.5rem;
+}
+.coffee_desc {
+    font-size: 1.5rem;
+}
+.coffee-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageHomePage {
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* about section image css */
+.imageAboutPage {
+    height: 100vh;
+    width: 100%;
+}
