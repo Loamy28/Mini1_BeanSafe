@@ -12,7 +12,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/header1.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(assets/images/header1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -24,36 +24,10 @@ nav{
     align-items: center;
 }
 
-.nav-links{
+.navbar-nav{
     flex: 1;
     text-align: right;
-}
-
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.nav-links ul li a{
-   color: #F6D789;
-   text-decoration: none;
-   font-size: 16px;
-}
-
-.nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #fff0bf;
-    display: block;
-    margin: auto;
-    transition: .01s;
-}
-
-.nav-links ul li:hover::after{
-    width: 100%;
+    padding-left: 75%;
 }
 
 .coffee_title {
@@ -78,9 +52,8 @@ nav{
     width: 100%;
 } 
 
-
-/* about section image css */
+about section image css
  .imageAboutPage {
     height: 100vh;
     width: 100%;
-} 
+}
