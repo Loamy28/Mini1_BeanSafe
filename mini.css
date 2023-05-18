@@ -6,7 +6,7 @@
 }
 
 .all-content{
-    background: #f7f5f2;
+    background-color: #D5C5B5;
 }
 html ::-webkit-scrollbar-track{
     background: transparent;
@@ -98,9 +98,10 @@ html ::-webkit-scrollbar{
 #about{
     width: 100%;
     height: 80vh;
+    background-color: #D5C5B5;
 }
 #about .container{
-    padding-top: 70px;
+    padding-top: 50px;
 }
 .heading{
     text-align: center;
@@ -155,7 +156,7 @@ html ::-webkit-scrollbar{
 /* Top cards start */
 #top-cards{
     width: 100%;
-    height: 55vh;
+    height: 60vh;
     background: #916A53;
 }
 .heading2{
@@ -167,14 +168,6 @@ html ::-webkit-scrollbar{
 }
 .heading2 span{
     color: #fffcd4;
-}
-.heading3{
-    text-align: center;
-    color: #b2744c;
-    font-size: 30px;
-    font-weight: bold;
-    padding-top: 100px;
-    border-bottom: 2px solid #b2744c;
 }
 #top-cards .container{
     margin-top: 30px;
@@ -192,9 +185,48 @@ html ::-webkit-scrollbar{
 }
 /* Top cards end */
 
+/* Menu Start */
+#menu{
+    width: 100%;
+    margin-top: 60px;
+    background-color: #D5C5B5;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+#container2{
+    margin-top: 20px;
+}
+#menu .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#menu h3{
+    text-align: center;
+    color: #b2744c;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#menu p{
+    font-size: 20px;
+    color: #b2744c;
+    padding-top: 10px;
+}
+#menu p span{
+    float: right;
+    cursor: pointer;
+}
+/* Menu End */
+
+
+
 /* Product Section start */
 #product{
     width: 100%;
+    background-color: #D5C5B5;
 }
 
 .heading4{
@@ -221,9 +253,91 @@ html ::-webkit-scrollbar{
     float: right;
     cursor: pointer;
 }
-
-
-
-
-
 /* Product Section end */
+
+/* Our Cafe Start */
+#gallery{
+    width: 100%;
+}
+.heading5{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 60px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+.heading5 span{
+    font-size: 30px;
+}
+#gallery .heading5 span{
+    color: #b2744c;
+}
+#gallery .card{
+    border-radius: 10px;
+}
+#gallery .card img{
+    border-radius: 10px;
+}
+
+/* Our Cafe End */
+
+/* Contact Start */
+#contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #b2744c 20%);
+    border-radius: 10px ;
+}
+.heading6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.heading6 span{
+    color: #b2744c;
+}
+#contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+#contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #b2744c;
+}
+#contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #b2744c;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#col{
+    width: 40%;
+    height: 56vh;
+    background: #704341;
+    margin-top: 78px;
+}
+#contact h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#contact #col p{
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+/* Contact End */
