@@ -154,7 +154,7 @@ html ::-webkit-scrollbar{
 
 #top-cards{
     width: 100%;
-    height: 60vh;
+    /* height: 100vh; */
     background: #916A53;
 }
 .heading2{
