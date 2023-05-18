@@ -32,8 +32,9 @@ html ::-webkit-scrollbar{
 .navbar-nav{
     margin-left: 50px;
 }
+
 .nav-item .nav-link{
-    color: black;
+    color: #FFFCD4;
     margin-left: 10px;
     font-weight: bold;
     transition: 0.5s;
@@ -96,7 +97,7 @@ html ::-webkit-scrollbar{
 /* About section Start */
 #about{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 #about .container{
     padding-top: 70px;
@@ -107,6 +108,7 @@ html ::-webkit-scrollbar{
     color: black;
     font-size: 30px;
     font-weight: bold;
+    border-bottom: 2px solid #b2744c;
 }
 .heading span{
     color: #916A53;
@@ -151,10 +153,9 @@ html ::-webkit-scrollbar{
 
 
 /* Top cards start */
-
 #top-cards{
     width: 100%;
-    /* height: 100vh; */
+    height: 55vh;
     background: #916A53;
 }
 .heading2{
@@ -162,9 +163,18 @@ html ::-webkit-scrollbar{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    border-bottom: 2px solid #b2744c;
 }
 .heading2 span{
     color: #fffcd4;
+}
+.heading3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+    border-bottom: 2px solid #b2744c;
 }
 #top-cards .container{
     margin-top: 30px;
@@ -181,3 +191,39 @@ html ::-webkit-scrollbar{
     transform: translateY(-10px);
 }
 /* Top cards end */
+
+/* Product Section start */
+#product{
+    width: 100%;
+}
+
+.heading4{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 70px;
+    border-bottom: 2px solid #b2744c;
+}
+#container3{
+    margin-top: 30px;
+}
+#product h3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+}
+#product p{
+    color: #b2744c;
+    padding-top: 10px;
+}
+#product p span{
+    float: right;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Product Section end */
